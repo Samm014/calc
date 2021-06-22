@@ -1,0 +1,33 @@
+Fórmulas:
+
+Aba "Áreas":
+		A área de um círculo é pi vezes o raio elevado ao quadrado (A = π r²).
+	Aprenda a usar esta fórmula para calcular a área de um círculo, quando
+	souber a medida do diâmetro.
+
+		Para calcular a área de um trapézio basta somar a base maior e base menor,
+	 multiplicar pela altura e depois, basta dividir o resultado por dois.
+
+		A área do triângulo geralmente é calculada através do produto da medida da base do triângulo
+ 	pela sua altura, e dividido por 2.
+
+		O cálculo da área do retângulo é obtido por meio da 
+	multiplicação da base pela altura.
+
+		O volume do cilindro é calculado pela multiplicação entre a área da base e a altura.
+	 Como a base é um círculo, utilizamos a fórmula da área de um círculo vezes a altura desse cilindro.
+
+
+
+Aba "Consumo":
+
+		Como calcular o consumo de energia elétrica de sua unidade consumidora? Para calcular o consumo de um 
+	equipamento elétrico, verifique a potência W (Watts) do mesmo, multiplique esta potência pelo tempo estimado de
+	funcionamento (Horas Por Dia) e divida por 1.000.
+	
+
+		Essa conta matemática considera que são necessários 35 ml de água para kg de peso corporal.
+	 Dessa maneira, é necessário multiplicar seu peso em kg por 35 para obter o resultado em ml, por exemplo:
+
+			– 70 kg X 35 = 2.450 ml ou 2 litros e 450 ml.
+	

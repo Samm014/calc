@@ -1,0 +1,11 @@
+Paleta de cores:
+
+#F59E9B	// rosa 
+#90B8E4 // azul
+#FFFFFF //branco
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+//font-family: 'Lato', sans-serif;
+
+
+Conceito inicial responsivo, media queries.
