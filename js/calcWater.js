@@ -14,17 +14,17 @@ $(function(){
         }
 
     if(idade_client <= 17){
-        consumo_client = peso_client * 40;
+        consumo_client = peso_client * 40 / 1000;
     }else if(idade_client >=18){
-        consumo_client = peso_client * 35;
+        consumo_client = peso_client * 35 / 1000;
     }else if(idade_client >= 55){
-        consumo_client = peso_client * 30;
+        consumo_client = peso_client * 30 / 1000;
     }else if(idade_client >= 66){
-        consumo_client = peso_client * 25;
+        consumo_client = peso_client * 25 / 1000;
     }
 
 
-     $('#consumo_client').html('<p class="resul_client-p">'+ consumo_client + '</p>');
+     $('#consumo_client').html('<p class="resul_client-p">'+ consumo_client.toFixed(3) + '</p>');
 
     return false;
 
