@@ -26,27 +26,28 @@
                 
                 
                 <div class="buttons-numbers">
-                    <div class="btn-clear-all">C</div>
+                    <div  onclick="calc(this)" class="btn-clear-all btn" name="0">C</div>
 
-                    <div class="btn">0</div>
-                    <div class="btn">1</div>
-                    <div class="btn">2</div>
-                    <div class="btn">3</div>
-                    <div class="btn">4</div>
-                    <div class="btn">5</div>
-                    <div class="btn">6</div>
-                    <div class="btn">7</div>
-                    <div class="btn">8</div>
-                    <div class="btn">9</div>
+                    <div onclick="calc(this)" name="0" class="btn btn-number">0</div>
+                    <div onclick="calc(this)" name="1" class="btn btn-number">1</div>
+                    <div onclick="calc(this)" name="2" class="btn btn-number">2</div>
+                    <div onclick="calc(this)" name="3" class="btn btn-number">3</div>
+                    <div onclick="calc(this)" name="4" class="btn btn-number">4</div>
+                    <div onclick="calc(this)" name="5" class="btn btn-number">5</div>
+                    <div onclick="calc(this)" name="6" class="btn btn-number">6</div>
+                    <div onclick="calc(this)" name="7" class="btn btn-number">7</div>
+                    <div onclick="calc(this)" name="8" class="btn btn-number">8</div>
+                    <div onclick="calc(this)" name="9" class="btn btn-number">9</div>
                 </div><!--buttons-numbers-->
 
                 
                 <div class="wraper-calcu1">
                     
-                    <div class="btn">+</div>
-                    <div class="btn">-</div>
-                    <div class="btn">÷</div>
-                    <div class="btn">x</div>
+                    <div disabled="" value="+" onclick="calc(this)" name="+" class="btn">+</div>
+                    <div disabled="" value="-" onclick="calc(this)" name="-" class="btn">-</div>
+                    <div disabled="" value="*" onclick="calc(this)" name="*" class="btn">*</div>
+                    <div disabled="" value="/" onclick="calc(this)" name="/" class="btn">/</div>
+                    
                     <div class="btn btn-igual">=</div>
                     
                 </div><!--wraper-calcu1-->
@@ -61,5 +62,6 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/function.js"></script>
+    <script src="js/math.js"></script>
 </body>
 </html>

@@ -379,6 +379,7 @@ form.calculadora .btn{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    border: 0;
 }
 
 form.calculadora .resul-calculadora{
