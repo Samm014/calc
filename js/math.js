@@ -26,13 +26,15 @@ $(()=>{
             total = '';
         }
     })
-
-
    
 
     $('.btn-igual').click(()=>{
-        var resultado = $(".resul-calculadora h3").html();
-        $('.resul-calculadora h3').html(eval(resultado))
+        if(total == 0){
+            $('.resul-calculadora h3').html('0')
+        }else{
+            var resultado = $(".resul-calculadora h3").html();
+            $('.resul-calculadora h3').html(eval(resultado))
+        }
     })
         
         
